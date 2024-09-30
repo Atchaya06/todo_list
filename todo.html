@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="styleee.css">
+<!--   to added a cdn for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Todo list</h1>
+        <div class="todo-app">
+            <div class="row">
+                <input type="text" id="input-box" placeholder="add task">
+                <button id="add-btn">ADD</button>
+    
+            </div>
+            <ul id ="list-container">
+                <li class="checked">
+                    workout<span><i class="fa-solid fa-trash-can"></i></span>
+                </li>
+                <li class="checked">
+                    Study<span><i class="fa-solid fa-trash-can"></i></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
